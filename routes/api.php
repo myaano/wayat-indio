@@ -9,11 +9,11 @@ Route::apiResource('books', \App\Http\Controllers\Api\BooksController::class)->m
 Route::post('register', [\App\Http\Controllers\Api\UserController::class, 'register']);
 
 
-
 // Route::get('/restricted', function () {
 //     return response()->json(['message' => 'The Token has been tampered.']);
 // })->middleware('EnsureTokenIsValid');
 
+// INDIO WAYAT COORDINATES :: 12°53'05.1"N 124°05'35.8"E INDIO WAYAT COORDINATES//
 
 
 // Route::post('login', [\App\Http\Controllers\Api\UserController::class, 'login']);
